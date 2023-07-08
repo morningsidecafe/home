@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&display=swap');
-body{
+html,body{
     background-color: black;
     color:azure;
     font-family: 'Cormorant', sans-serif;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    height: 100%;
 }
 
 .topnav {
@@ -135,7 +136,7 @@ section{
     font-size: 1em;
   }
   .logo p{
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
 }
 
@@ -174,6 +175,7 @@ section{
   background-color:rgba(93, 93, 93, 0.2);
   padding: 10px;
   border-radius: 7px;
+  font-size: 30px;
 }
 
 .visit {
@@ -182,19 +184,21 @@ section{
   padding-left: 5%;
   font-size: 2em;
   height: 100vh;
+  margin-top: 2%;
 }
 .visit h2{
-  padding-left: 3%;
-  padding-right: 5%;
+  width: 100%;
   margin-top: 5%;
+  text-align: center;
 }
 
-footer {
+footer{
   font-size: 20px;
   color:#74736f;
   float: right;
-  bottom:0;
+  bottom: 0;
   margin-right: 3%;
+  margin-top: 2%;
 }
 
 .coffee{
@@ -270,6 +274,41 @@ td:first-child{
     margin-top: 5%;
     margin-bottom: 7%;
   }
+  .logos {
+    display: inline-block;
+    margin-left: 2%;
+}
+.hidden img{
+  border-radius: 5px;
+  width: 100%;
+}
+.visit{
+  margin-top: 90vh;
+}
+.visit .menu{
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+footer{
+  position: absolute;
+  font-size: 10px;
+  color:#74736f;
+  bottom: 0;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+.logo:nth-child(2) {
+  transition-delay: 50ms;
+}
+
+.logo:nth-child(3) {
+  transition-delay: 50ms;
+}
+
+.logo:nth-child(4) {
+  transition-delay: 50ms;
+}
+
   
 
 }
@@ -285,11 +324,11 @@ td:first-child{
 }
 
 .about p{
+  text-align: center;
   position: relative;
   font-size: 1.4rem;
-  margin-right: 40px;
-  margin-left: 40px;
-  float: left;
+  margin-right: 4em;
+  margin-left: 1em;
   width: 60%;
   display: inline-block;
   max-height: 100vh;
@@ -302,12 +341,27 @@ td:first-child{
   min-height: 76.3vh;
   display: inline-block;
   bottom: 0;
+  max-width: 100vw;
+}
+.aboutSMALL{
+  display: none;
+  max-width: 100vw;
+}
+.news{
+  font-size: 1.1em;
+}
+.news a{
+  color:rgb(253, 186, 190);
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
 }
 .BG{
   float: left;
   background-color: rgba(93, 93, 93, 0.1);
   min-height: 100vh;
   display: inline-block;
+  max-width: 100vw;
 }
 .aboutIMG{
   position: absolute;
@@ -330,10 +384,16 @@ td:first-child{
   .about p{
     position: relative;
     font-size: x-large;
-    margin-right: 40px;
-    margin-left: 40px;
     width: 90%;
     display: inline-block;
+  }
+  .aboutSMALL{
+    position: relative;
+    display: inline-block;
+    max-width: 80vw;
+    margin: 0 auto;
+    margin-left: 8vw;
+    margin-right: 5vw;
   }
 
 }
@@ -341,7 +401,8 @@ td:first-child{
   position: relative;
   margin: 0 auto;
   margin-top: 50px;
-  padding-top: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   text-align: center;
   background-color: #000000;
 }
@@ -416,7 +477,7 @@ td:first-child{
   .location, .details, .hours, .social{
     width: 40%;
     margin: 4%;
-    font-size: 1.2em;
+    font-size: 1.1em;
     align-items: center;
   }
 }
