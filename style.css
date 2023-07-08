@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;1,300&display=swap');
 body{
-    background-color: white;
+    background-color: black;
     color:azure;
     font-family: 'Cormorant', sans-serif;
     padding: 0;
@@ -29,8 +29,8 @@ body{
   .rounded-circle
 {
   border-radius: 50%;
-    z-index: 9999;
-    margin-top: 25vh;
+  z-index: 9999;
+  margin-top: 25vh;
 }
   .logo-image{
     width: 44px;
@@ -102,7 +102,7 @@ section{
   color: #f1f1f1;
   width: 100%;
   text-align: center;
-    height: 100vh;
+  height: 100vh;
 }
 
 
