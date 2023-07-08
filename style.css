@@ -345,7 +345,6 @@ footer{
 }
 .aboutSMALL{
   display: none;
-  max-width: 100vw;
 }
 .news{
   font-size: 1.1em;
