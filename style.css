@@ -29,6 +29,7 @@ body{
   .rounded-circle
 {
   border-radius: 50%;
+    z-index: 9999;
 }
   .logo-image{
     width: 44px;
