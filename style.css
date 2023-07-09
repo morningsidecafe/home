@@ -113,7 +113,7 @@ section{
     filter: blur(5px);
     transform: translateX(-100%);
     transition: all 1s;
-    margin-bottom: 0;
+    margin-bottom: 7%;
 }
  
 .show {
@@ -288,7 +288,7 @@ td:first-child{
 }
 .visit .menu{
   padding-top: 5%;
-    margin-bottom: 0;
+  padding-bottom: 5%;
 }
 footer{
   position: absolute;
