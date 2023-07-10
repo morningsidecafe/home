@@ -193,15 +193,6 @@ section{
   text-align: center;
 }
 
-footer{
-  font-size: 20px;
-  color:#74736f;
-  float: right;
-  bottom: 0;
-  margin-right: 3%;
-  margin-top: 2%;
-}
-
 .coffee{
   width: 45%;
   float: left;
