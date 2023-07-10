@@ -366,6 +366,7 @@ max-height: 100vh;
     display: none;
   }
   .about p{
+      float: left;
     position: relative;
     font-size: x-large;
     width: 90%;
