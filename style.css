@@ -180,7 +180,7 @@ section{
 }
 
 .visit {
-  min-height: fit-content;
+  max-height: fit-content;
   margin: 0 auto;
   padding-left: 5%;
   font-size: 2em;
@@ -285,6 +285,7 @@ td:first-child{
 }
 .visit{
   margin-top: 80vh;
+max-height: 100vh;
 }
 .visit .menu{
   padding-top: 5%;
