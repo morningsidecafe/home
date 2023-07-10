@@ -275,20 +275,12 @@ td:first-child{
   width: 100%;
 }
 .visit{
-  margin-top: 85vh;
+  margin-top: 75vh;
 max-height: 100vh;
 }
 .visit .menu{
   padding-top: 5%;
   padding-bottom: 5%;
-}
-footer{
-  position: absolute;
-  font-size: 10px;
-  color:#74736f;
-  bottom: 0;
-  margin-right: 3%;
-  margin-top: 2%;
 }
 .logo:nth-child(2) {
   transition-delay: 50ms;
